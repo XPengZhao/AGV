@@ -1,0 +1,13 @@
+uint8 RC
+uint8 IMU
+uint8 ZGYRO
+uint8 MOTOR1
+uint8 MOTOR2
+uint8 MOTOR3
+uint8 MOTOR4
+uint8 MOTOR5
+uint8 MOTOR6
+uint8 NOCALI
+uint8 TIMEOUT
+uint8 PC
+uint8 MOTOR7

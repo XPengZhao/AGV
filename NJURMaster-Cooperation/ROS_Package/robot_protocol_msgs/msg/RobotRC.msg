@@ -1,0 +1,12 @@
+int16 RC_ch0
+int16 RC_ch1
+int16 RC_ch2
+int16 RC_ch3
+int16 RC_key1
+int16 RC_key2
+uint16 Key
+int16 mouse_left_click
+int16 mouse_right_click
+int16 mouse_x
+int16 mouse_y
+int16 mouse_z
