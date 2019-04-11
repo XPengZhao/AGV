@@ -23,6 +23,8 @@
 ![](img/3.PNG)
 
 https://wenku.baidu.com/view/94f3c91717fc700abb68a98271fe910ef12dae8e.html?from=search
+https://zhuanlan.zhihu.com/p/20282234?utm_source=qq&utm_medium=social 知乎专栏讲解
+https://v.qq.com/x/page/o06206wwirk.html 直观动画演示
 
 #### 2）全向轮（Omni Wheel）
 
