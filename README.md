@@ -58,6 +58,8 @@ https://wenku.baidu.com/view/80e067aea0c7aa00b52acfc789eb172dec639950.html
 
 ### 2.1 程序流程
 
+![](img/7.png)
+
 ### 2.2 硬件驱动
 
 #### 2.2.1 SWD调试接口

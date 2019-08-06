@@ -10,7 +10,7 @@ RCC->APB2ENR|=1<<3; //使能 PORT 时钟
 GPIOB->CRH&=0XFF0FFFFF;
 GPIOB->CRH|=0X00300000;//推挽输出
 GPIOB->ODR|=1<<13; // 输出高
-	
+    
 }
 
 /**************************************************************************
@@ -20,7 +20,13 @@ GPIOB->ODR|=1<<13; // 输出高
 **************************************************************************/
 void Led_Flash(u16 time)
 {
-	  static int temp;
-	  if(0==time) LED=0;
-	  else		if(++temp==time)	LED=~LED,temp=0;
+    static int temp;
+    if(0==time)
+        LED=0;
+    else
+        if(++temp==time)
+        {
+            LED = ~LED;
+            temp = 0;
+        }
 }

@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "LED.C": "cpp",
+        "DataScope_DP.C": "cpp",
+        "can.h": "c"
+    }
+}
