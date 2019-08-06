@@ -47,8 +47,8 @@ int main(void)
     DMP_Init();                     //=====初始化DMP     
     MiniBalance_PWM_Init(7199,0);   //=====初始化PWM 10KHZ，用于驱动电机
     if(KEY==0) Flash_Read();        //=====读取Flash里面的参数
-    PS2_Init();											//=====ps2驱动端口初始化
-    PS2_SetInit();		 							//=====ps2配置初始化,配置“红绿灯模式”，并选择是否可以修改
+    PS2_Init();                     //=====ps2驱动端口初始化
+    PS2_SetInit();                  //=====ps2配置初始化,配置“红绿灯模式”，并选择是否可以修改
     EXTI_Init();                    //=====MPU6050 5ms定时中断初始化
     CAN1_Mode_Init(1,2,3,6,0);      //=====CAN初始化
     while(1)

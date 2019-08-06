@@ -322,9 +322,9 @@ void CAN1_SEND(void)
                 txbuf[3]=Direction_B;
                 txbuf[4]=abs(Encoder_C);
                 txbuf[5]=Direction_C;
-                txbuf[6]=abs(Encoder_D);	
-                txbuf[7]=Direction_D;			
-          CAN1_Send_Num(0x101,txbuf);					
+                txbuf[6]=abs(Encoder_D);
+                txbuf[7]=Direction_D;
+          CAN1_Send_Num(0x101,txbuf);
           }
 }
 
