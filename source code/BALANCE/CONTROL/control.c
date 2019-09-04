@@ -128,17 +128,17 @@ int EXTI15_10_IRQHandler(void)
 void Set_Pwm(int motor_a,int motor_b,int motor_c,int motor_d)
 {
         int siqu=0;
-        if(motor_a>0)			PWMA=motor_a+siqu, INA=0;
-            else  	          PWMA=7200+motor_a-siqu,INA=1;
+        if(motor_a>0)    PWMA=motor_a+siqu, INA=0;
+        else             PWMA=7200+motor_a-siqu,INA=1;
         
-          if(motor_b>0)			PWMB=7200-motor_b-siqu,INB=1;
-            else 	            PWMB=-motor_b+siqu,INB=0;
+        if(motor_b>0)    PWMB=7200-motor_b-siqu,INB=1;
+        else 	         PWMB=-motor_b+siqu,INB=0;
     
-        if(motor_c>0)			PWMC=7200-motor_c-siqu,INC=1;
-            else 	            PWMC=-motor_c+siqu,INC=0;
+        if(motor_c>0)    PWMC=7200-motor_c-siqu,INC=1;
+        else 	         PWMC=-motor_c+siqu,INC=0;
     
-       if(motor_d>0)			PWMD=motor_d+siqu,IND=0;
-            else 	            PWMD=7200+motor_d-siqu,IND=1;
+        if(motor_d>0)     PWMD=motor_d+siqu,IND=0;
+        else              PWMD=7200+motor_d-siqu,IND=1;
 }
 
 /**************************************************************************
