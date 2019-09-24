@@ -1,8 +1,3 @@
-/**************************************************************************
-◊˜’ﬂ£∫∆Ω∫‚–°≥µ÷Æº“ 
-Ã‘±¶µÍ∆Ã£∫http://shop114407458.taobao.com/
-**************************************************************************/
-
 #ifndef __DATA_PRTOCOL_H
 #define __DATA_PRTOCOL_H
  
@@ -16,6 +11,3 @@ unsigned char DataScope_Data_Generate(unsigned char Channel_Number);  // ∑¢ÀÕ÷° 
  
  
 #endif 
-
-
-

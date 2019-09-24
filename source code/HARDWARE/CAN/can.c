@@ -2,10 +2,7 @@
 #include "led.h"
 #include "delay.h"
 #include "usart.h"
-//作者：平衡小车之家
-//我的淘宝小店：http://shop114407458.taobao.com/
-//版权所有 盗版必究
-        
+
 //CAN1初始化
 //tsjw:重新同步跳跃时间单元.范围:1~3;
 //tbs2:时间段2的时间单元.范围:1~8;
@@ -80,10 +77,8 @@ u8 CAN1_Mode_Init(u8 tsjw,u8 tbs2,u8 tbs1,u16 brp,u8 mode)
 #endif
     return 0;
 }  
-//作者：平衡小车之家
-//我的淘宝小店：http://shop114407458.taobao.com/
-//版权所有 盗版必究
-//id:标准ID(11位)/扩展ID(11位+18位)	    
+
+//id:标准ID(11位)/扩展ID(11位+18位)
 //ide:0,标准帧;1,扩展帧
 //rtr:0,数据帧;1,远程帧
 //len:要发送的数据长度(固定为8个字节,在时间触发模式下,有效数据为6个字节)

@@ -1,8 +1,5 @@
 #include "sys.h"
-  /**************************************************************************
-作者：平衡小车之家
-我的淘宝小店：http://shop114407458.taobao.com/
-**************************************************************************/ 
+
 u8 Flag_Left,Flag_Right,Flag_Direction=0;             //蓝牙遥控相关的变量
 u8 Flag_Stop=1,Flag_Show=0;                           //停止标志位和 显示标志位 默认停止 显示打开
 int Encoder_A,Encoder_B,Encoder_C,Encoder_D;          //编码器的脉冲计数
@@ -72,7 +69,6 @@ int main(void)
         USART_TX();                //串口发送
         delay_flag=1;	
         delay_50=0;
-        while(del
-        ay_flag);	       //通过MPU6050的INT中断实现的50ms精准延时
+        while(delay_flag);	       //通过MPU6050的INT中断实现的50ms精准延时
     } 
 }
