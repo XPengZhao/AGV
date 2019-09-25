@@ -202,13 +202,13 @@ void MiniBalance_Motor_Init(void)
     RCC->APB2ENR|=1<<4;       //PORTC时钟使能 
     GPIOB->CRL&=0XFFFFFF00;   //推挽输出
     GPIOB->CRL|=0X00000022;   //推挽输出
-    //GPIOB->ODR|=0<<0;  	
-    //GPIOB->ODR|=0<<1;  	
-    
+    //GPIOB->ODR|=0<<0;
+    //GPIOB->ODR|=0<<1;
+
     GPIOC->CRL&=0XFF00FFFF;   //推挽输出
     GPIOC->CRL|=0X00220000;   //推挽输出
     //GPIOC->ODR|=0<<4;
-    //GPIOC->ODR|=0<<5; 
+    //GPIOC->ODR|=0<<5;
 ```
 
 PWM输出初始化代码：
