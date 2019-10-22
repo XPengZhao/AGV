@@ -621,3 +621,12 @@ void USB_LP_CAN1_RX0_IRQHandler(void)
 
 
 ### 2.3 控制算法
+
+速度模式时，控制原理图：
+
+![](.\img\9.png)
+
+位置模式时，控制原理图：
+
+![](.\img\10.png)
+
