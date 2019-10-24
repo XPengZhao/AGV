@@ -36,6 +36,10 @@
 
 #### 1.2.1 全车机械尺寸
 
+<img src="img/机械1.PNG" style="zoom: 50%;" />
+
+<img src="img/机械2.PNG" style="zoom: 50%;" />
+
 #### 1.2.2 载重量测试
 
 <img src="img/载重.PNG" style="zoom: 50%;" />
