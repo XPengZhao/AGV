@@ -36,13 +36,19 @@
 
 #### 1.2.1 全车机械尺寸
 
-<img src="img/机械1.PNG" style="zoom: 50%;" />
+    单位：mm
+
+<img src="img/机械1.PNG" style="zoom: 50%;" />     
 
 <img src="img/机械2.PNG" style="zoom: 50%;" />
 
 #### 1.2.2 载重量测试
 
-<img src="img/载重.PNG" style="zoom: 50%;" />
+- 自重：7.4kg
+- 最大载重量测试:25kg(不含自重)
+- 最大速度：1.5m/s
+- 负载20kg时的速度：0.4m/s
+- 负载20kg时的运行时间：30min左右
 
 ### 1.3 电机方案
 
