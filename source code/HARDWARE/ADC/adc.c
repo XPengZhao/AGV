@@ -9,7 +9,7 @@ void  Adc_Init(void)
   //先初始化IO口
  	RCC->APB2ENR|=1<<2;    //使能PORTA口时钟 
 	GPIOA->CRL&=0XFF0FFFFF;//PA5 anolog输入 
-	RCC->APB2ENR|=1<<9;    //ADC1时钟使能	  
+	RCC->APB2ENR|=1<<9;    //ADC1时钟使能
 	RCC->APB2RSTR|=1<<9;   //ADC1复位
 	RCC->APB2RSTR&=~(1<<9);//复位结束	    
 	RCC->CFGR&=~(3<<14);   //分频因子清零	
@@ -17,8 +17,8 @@ void  Adc_Init(void)
 	//否则将导致ADC准确度下降! 
 	RCC->CFGR|=2<<14;      	 
 	ADC1->CR1&=0XF0FFFF;   //工作模式清零
-	ADC1->CR1|=0<<16;      //独立工作模式  
-	ADC1->CR1&=~(1<<8);    //非扫描模式	  
+	ADC1->CR1|=0<<16;      //独立工作模式
+	ADC1->CR1&=~(1<<8);    //非扫描模式
 	ADC1->CR2&=~(1<<1);    //单次转换模式
 	ADC1->CR2&=~(7<<17);	   
 	ADC1->CR2|=7<<17;	   //软件控制转换  

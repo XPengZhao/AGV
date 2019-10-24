@@ -2,6 +2,7 @@
     "files.associations": {
         "LED.C": "cpp",
         "DataScope_DP.C": "cpp",
-        "can.h": "c"
+        "can.h": "c",
+        "key.h": "c"
     }
 }

@@ -6,8 +6,8 @@ u8 temp1;                                               //临时变量
 float Voltage_Count,Voltage_All;                        //电压采样相关变量
 float Gyro_K=0.004;                                     //陀螺仪比例系数
 int j;
-#define a_PARAMETER          (0.25f)               
-#define b_PARAMETER          (0.225f)         
+#define a_PARAMETER          (0.25f)
+#define b_PARAMETER          (0.225f)
 /**************************************************************************
 函数功能：小车运动数学模型
 入口参数：X Y Z 三轴速度或者位置
